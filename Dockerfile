@@ -1,4 +1,4 @@
-FROM docker-vkb-virtual.repo01.vkbads.de/cqse/teamscale:4.0.5
+FROM cqse/teamscale:4.0.5
 MAINTAINER Erkin Bapisch <erkin.bapisch@vkb.de>
 
 # Based on information of
