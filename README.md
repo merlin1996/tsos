@@ -1,0 +1,2 @@
+# tsos
+Teamscale on Openshift
