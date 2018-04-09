@@ -15,6 +15,7 @@ ENV PATH=${APP_ROOT}/bin:${PATH} HOME=${APP_ROOT}
 COPY bin/ ${APP_ROOT}/bin/
 
 RUN    chmod  u+x ${APP_ROOT}/bin
+RUN    chown  teamscale:root ${APP_ROOT}/bin
 RUN    chgrp  0 ${APP_ROOT}
 RUN    mkdir  /opt/teamscale/storage
 RUN    chgrp  0 ${APP_ROOT}/storage
